@@ -1,0 +1,20 @@
+seed: 42
+device: "cuda"  # "cuda" or "cpu"
+data:
+  root: "data"
+  img_size: 224
+  train_dir: "data/train"
+  val_dir: "data/val"
+  test_dir: "data/test"
+  classes: ["mask", "no_mask"]
+train:
+  batch_size: 32
+  num_workers: 2
+  epochs: 20
+  lr: 0.0005
+  weight_decay: 0.0005
+  early_stopping_patience: 5
+  save_dir: "models"
+  best_model_name: "best_mask_cnn.pt"
+inference:
+  threshold: 0.5
