@@ -1,17 +1,10 @@
 <p align="center">
-  <img src="assets/fmd-banner.svg" alt=<p align="center">
   <img src="assets/fmd-banner.svg" alt="Face Mask Detection CNN Banner" width="100%" />
-</p>
-
-<h1 align="center">Face Mask Detection (CNN)</h1>
- width="100%" />
 </p>
 
 <h1 align="center">Face Mask Detection (CNN)</h1>
 
 A clean, production-style PyTorch implementation for **binary face mask classification**:
-
-
 - `mask` vs `no_mask`
 - Lightweight **CNN** (no internet needed for pretrained weights)
 - Reproducible training, early stopping, evaluation, and CLI inference
