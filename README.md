@@ -3,13 +3,16 @@
 </p>
 
 <h1 align="center">Face Mask Detection (CNN)</h1>
-⭐ <strong>Accuracy:</strong> Not Trained Yet &nbsp;|&nbsp;
+
+<p align="center">
+  ⭐ <strong>Accuracy:</strong> Not Trained Yet &nbsp;|&nbsp;
   🚀 <strong>Model:</strong> Custom CNN &nbsp;|&nbsp;
   📦 <strong>Dataset:</strong> Kaggle 12K &nbsp;|&nbsp;
   🎯 <strong>Task:</strong> Binary Classification
-  </p>
+</p>
 
 A clean, production-style PyTorch implementation for **binary face mask classification**:
+
 - `mask` vs `no_mask`
 - Lightweight **CNN** (no internet needed for pretrained weights)
 - Reproducible training, early stopping, evaluation, and CLI inference
