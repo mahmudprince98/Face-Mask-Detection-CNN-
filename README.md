@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/fmd-banner.svg" alt="Face Mask Detection CNN Banner" />
+</p>
 # Face Mask Detection (CNN)
 
 A clean, production-style PyTorch implementation for **binary face mask classification**:
